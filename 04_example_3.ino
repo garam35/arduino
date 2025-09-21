@@ -17,7 +17,7 @@ void loop() {
   delay(1000);                                 
 }
 
-// LED 상태를 반전시키는 함수
 int toggle_state(int toggle) {
-  return !toggle;   // 현재 상태의 반대값 반환
+  return !toggle;   
 }
+
